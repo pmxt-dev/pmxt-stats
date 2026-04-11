@@ -7,7 +7,8 @@ const path = require('path');
 const PACKAGES = [
     { type: 'pypi', name: 'pmxt' },
     { type: 'npm', name: 'pmxtjs' },
-    { type: 'npm', name: 'pmxt-core' }
+    { type: 'npm', name: 'pmxt-core' },
+    { type: 'npm', name: '@pmxt/mcp' }
 ];
 
 function fetchJson(url) {
